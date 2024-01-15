@@ -1,0 +1,166 @@
+body{
+  background-color: #F7F8FC;
+}
+.container{
+  display:flex;
+  align-items:start;
+  max-width:1540px;
+  margin:0 auto;
+  gap: 40px;
+  height: 100vh;
+
+}
+
+.saidbar{
+  width:255px;
+  height: 100%;
+  background-color:#363740;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  >span{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    >h5{
+      font-size: 18px;
+      color: #DFE0EB;
+    }
+  }
+  >hr{
+    width: 100%;
+    height: 1px;
+    background-color: #DFE0EB;
+    border: 0;
+  }
+}
+
+.logo{
+  display: flex;
+  gap: 10px;
+  >h2{
+    color: #A4A6B3;
+  }
+}
+
+.panel{
+  >.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 400px;
+    >.nav-icon{
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      >hr{
+        width: 1px;
+        height: 30px;
+        border: none;
+        background-color: #000;
+      }
+      >span{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+    }
+    
+  }
+
+  .allPanel{
+      width: 1122px;
+      padding: 20px;
+      border: 1px solid #DFE0EB;
+      border-radius: 8px;
+      background-color: #fff;
+    >.allPanel-text{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .icons{
+        display: flex;
+        gap: 20px;
+        >span{
+          display: flex;
+          gap: 10px;
+        }
+      }
+    }
+    
+    >.users{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      >hr{
+        border: 0;
+        background-color: #9FA2B4;
+        height: 1px;
+        width: 100%;
+      }
+      .userTablo{
+        display: flex;
+        justify-content: space-between;
+        >h3{
+          font-size: 15px;
+          color: #9FA2B4;
+          &:nth-child(2){
+            margin-left: 250px;
+          }
+        }
+      }
+      .user{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 150px;
+        width: 100%;
+        padding: 0;
+        &:hover{
+          background-color: #DFE0EB;
+        }
+      }
+    }
+  }
+}
+
+.userInfo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  >.userImg{
+    border-radius: 50%;
+  }
+
+  >span{
+    width: 280px;
+  }
+}
+
+
+.user-text{
+  >h5{
+    margin: 0;
+  }
+  >p{
+    margin: 10px 0 0 0;
+  }
+}
+
+.btns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;  
+  >button{
+    width: 70px;
+    border-radius: 100px;
+    background-color: #F12B2C;
+    color: #fff;
+    border: 0;
+    outline: none;
+    height: 20px;
+  }
+}
